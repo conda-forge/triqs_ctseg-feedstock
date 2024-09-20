@@ -27,11 +27,11 @@ libboost_headers:
 liblapack:
 - 3.9 *netlib
 mpi:
-- mpich
+- openmpi
 mpich:
 - '4'
 numpy:
-- '1.23'
+- '2.0'
 openmpi:
 - '5'
 pin_run_as_build:
