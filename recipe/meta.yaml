@@ -1,15 +1,15 @@
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 
 package:
   name: triqs_ctseg
   version: {{ version }}
 
 source:
-  url: https://github.com/TRIQS/ctseg/releases/download/{{ version }}/ctseg-{{ version }}.tar.gz
-  sha256: 2fc8c358e339b22d40c7d8b8b60f2a6f61bce786045f3fe0831b86447e2e9c8f
+  url: https://github.com/TRIQS/ctseg/releases/download/{{ version }}/ctseg-{{ version }}.tar
+  sha256: 4ad56742fd83eb4af199193b601d4b8ec160c3c3c81d5b18d1466b7171673510
 
 build:
-  number: 5
+  number: 0
   skip: true  # [win or py<30]
 
 requirements:
