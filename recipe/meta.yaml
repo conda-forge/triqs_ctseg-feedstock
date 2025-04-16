@@ -55,7 +55,7 @@ about:
   home: https://triqs.github.io/ctseg
   license: GPL-3.0-or-later
   license_family: GPL
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: A segment picture impurity solver with spin-spin interactions
 
 extra:
