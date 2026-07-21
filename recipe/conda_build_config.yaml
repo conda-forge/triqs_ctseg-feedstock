@@ -1,3 +1,6 @@
 mpi:
   - mpich
   - openmpi
+# Force openmpi 5 (openmpi5 migration is skipped for this feedstock).
+openmpi:
+  - '5'
